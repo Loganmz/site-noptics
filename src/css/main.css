@@ -1,0 +1,74 @@
+.titre-type h2{
+    font-size: 2.875rem;
+    font-family:'Arkhip', sans-serif;
+    color: #ffffff;
+    font-weight: 200;
+    -webkit-text-stroke: 0.0938rem rgb(0, 0, 0);
+
+    
+}
+
+header h1{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.titre{
+    font-size: 25px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.menu a{
+    font-size: 2rem;
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+@media (max-width: 1000px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .menu a {
+        color: #ffffff;
+    }
+}
+
+
+@media (min-width: 1000px) {
+    
+    header{
+        position: relative;
+        top: 0;
+        padding-top: 10px;
+        padding-bottom: 5px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 0;
+        margin-left: 15px;
+        margin-right: 15px;
+        align-items: center;
+    }
+
+    .menu-test li{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        color: black;
+    }
+
+
+}
+
+.name-head a{
+    color: black;
+}
